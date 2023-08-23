@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap');
+* {
+    outline: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #aeaeae;
+}
+
+body,
+.container {
+    background-color: rgba(128, 128, 128, 0.089);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.divide {
+    margin: auto;
+    width: 80%;
+    border-bottom: thin solid rgba(128, 128, 128, 0.276);
+    height: 1px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #1e1d1d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.list-link {
+    text-decoration: none;
+    color: #1e1d1d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: #1e1d1d;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.nav-link:hover,
+.active,
+.list-link:hover {
+    background-color: rgba(128, 128, 128, 0.146);
+    transition: 0.5s;
+}
+
+.active {
+    color: #5e34b1;
+    background-color: #e5def2;
+}
+
+.active .nav-icon,
+.active .list-icon {
+    color: #5e34b1ef;
+}
+
+.logout:hover {
+    color: rgb(171, 21, 21);
+    background-color: rgba(171, 21, 21, 0.062);
+}
+
+.logout {
+    color: rgb(171, 21, 21);
+}
+
+.logout .nav-icon {
+    color: rgb(171, 21, 21);
+}
+
+.nav-icon {
+    margin-right: 2rem;
+    color: #212121d4;
+}
+
+.list-icon {
+    margin-right: 5px;
+    color: #212121d4;
+}
+
+.v-text-field {
+    padding: 0 !important;
+}
+
+.date-time input {
+    padding: 10px;
+    border: thin solid #3333333c;
+    border-radius: 5px;
+}
+
+.checked {
+    color: green;
+}
+
+.unchecked {
+    color: rgba(128, 128, 128, 0.731);
+}
